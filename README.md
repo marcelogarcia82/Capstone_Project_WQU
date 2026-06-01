@@ -2,7 +2,7 @@
 
 ## Overview
 
-This capstone project implements and analyzes the **Garcia Binomial Model** for option pricing, comparing it with other established binomial models (CRR, Jarrow-Rudd, Tian, Trigeorgis, and JKY) as well as Monte Carlo simulation methods.
+This capstone project implements and analyzes the **Garcia Binomial Model** for option pricing, comparing it with other established binomial models CRR and Monte Carlo simulation methods.
 
 The project demonstrates that the Garcia model provides superior convergence properties for certain parameter regimes and maintains computational efficiency for complex derivative pricing scenarios, including barrier options, digital options, and multi-asset portfolio options.
 
@@ -248,7 +248,7 @@ If you use this code in your research, please cite:
 ```bibtex
 @mastersthesis{garcia2026capstone,
   author = {Garcia, Marcelo},
-  title = {The Garcia Binomial Model for Efficient Option Pricing},
+  title = {Exact Binomial Pricing via Exact Moment Matching and Regularized Beta Functions},
   school = {WorldQuant University},
   year = {2026}
 }
