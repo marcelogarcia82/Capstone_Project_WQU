@@ -1,0 +1,80 @@
+{
+  "section": "Portfolio Analysis",
+  "date": "2026-05-11T16:48:09.885700",
+  "portfolio_params": {
+    "num_assets": 4,
+    "asset_prices": [
+      100,
+      120,
+      80,
+      95
+    ],
+    "portfolio_s0": 98.75,
+    "portfolio_vol": 0.21454894546466546,
+    "strike": 90.0,
+    "barrier": 150.0,
+    "rate": 0.05,
+    "time": 1.0,
+    "volatilities": [
+      0.25,
+      0.35,
+      0.2,
+      0.4
+    ],
+    "correlation": [
+      [
+        1.0,
+        0.1,
+        0.4,
+        0.5
+      ],
+      [
+        0.1,
+        1.0,
+        0.3,
+        0.2
+      ],
+      [
+        0.4,
+        0.3,
+        1.0,
+        0.6
+      ],
+      [
+        0.5,
+        0.2,
+        0.6,
+        1.0
+      ]
+    ]
+  },
+  "option_comparison": [
+    {
+      "option": "Vanilla Call",
+      "bs_price": 16.116762655661553,
+      "mc_price": 16.168451576951792,
+      "beta_price": 16.116763120027024,
+      "mc_bs_error": 0.051688921290239165,
+      "beta_bs_error": 4.6436547052053356e-07,
+      "beta_mc_error": 0.051688456924768644
+    },
+    {
+      "option": "Digital Asset Call",
+      "bs_price": 77.04191140698379,
+      "mc_price": 76.54013897403284,
+      "beta_price": 77.05797813180419,
+      "mc_bs_error": 0.5017724329509434,
+      "beta_bs_error": 0.016066724820404943,
+      "beta_mc_error": 0.5178391577713484
+    },
+    {
+      "option": "Barrier Call Up-Out",
+      "bs_price": 13.719751464591837,
+      "mc_price": 13.464039956470389,
+      "beta_price": 13.72201110066716,
+      "mc_bs_error": 0.2557115081214487,
+      "beta_bs_error": 0.0022596360753226463,
+      "beta_mc_error": 0.25797114419677136
+    }
+  ]
+}
