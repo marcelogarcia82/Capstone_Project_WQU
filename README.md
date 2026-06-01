@@ -260,7 +260,7 @@ This project is part of a capstone thesis at WorldQuant University.
 
 ## Contact
 
-For questions or inquiries, please contact: [Your Contact Information]
+For questions or inquiries, please contact: [marcelogarcia82@gmail.com]
 
 ---
 
